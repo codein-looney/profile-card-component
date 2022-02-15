@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-color: var(--Dark-cyan);
+    background-position: -80% 170%, 150% -150% ;
+    background-repeat: no-repeat;
+}

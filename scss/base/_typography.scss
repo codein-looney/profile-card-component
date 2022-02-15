@@ -1,0 +1,56 @@
+.content {
+    font-family: var(--fontFamily);
+    margin-top: 5rem ; 
+    text-align: center;
+
+    h1 {
+        font-size: 18px;
+
+        span {
+            color: var(--Dark-gray);
+            font-weight: 400;
+            padding-left: 1rem;
+        }
+    }
+
+    h3 {
+        padding: 1rem 0 2rem 0;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--Dark-gray);
+    }
+
+    .stats {
+        padding: 2rem 3rem 0.5rem 3rem;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        color: var(--Very-dark-desaturated-blue);
+        font-weight: 700;
+        border-top: 1px solid hsla(227, 10%, 46%, 0.253);
+        font-size: 18px;
+
+        li {
+            list-style: none;
+            letter-spacing: 0.1rem;
+        }
+    }
+
+    .sub-stats {
+        padding: 0 3rem 0 3rem;
+        display: flex;
+        justify-content: space-between;
+        color: var(--Dark-gray);
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+
+        li {
+            list-style: none;
+        }
+
+    }
+}
+
+
+// What is inline block?
